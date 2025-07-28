@@ -40,8 +40,8 @@ const Home = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section id="home" className="relative py-20 bg-gradient-hero text-primary-foreground overflow-hidden">
-        <div className="absolute inset-0 bg-primary/10"></div>
+      <section id="home" className="relative py-20 bg-primary text-primary-foreground overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary to-primary-hover"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-6">
@@ -57,7 +57,7 @@ const Home = () => {
                 <Phone className="mr-2 w-5 h-5" />
                 Get Free Quote
               </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8 py-4 h-auto border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+              <Button size="lg" variant="outline" className="text-lg px-8 py-4 h-auto border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary backdrop-blur-sm">
                 Learn More
               </Button>
             </div>
