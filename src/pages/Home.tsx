@@ -57,7 +57,7 @@ const Home = () => {
                 <Phone className="mr-2 w-5 h-5" />
                 Get Free Quote
               </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8 py-4 h-auto border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary backdrop-blur-sm">
+              <Button size="lg" variant="outline" className="text-lg px-8 py-4 h-auto border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
                 Learn More
               </Button>
             </div>
