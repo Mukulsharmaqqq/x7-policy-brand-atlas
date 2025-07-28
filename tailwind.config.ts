@@ -89,9 +89,9 @@ export default {
 				'button': 'var(--shadow-button)'
 			},
 			fontFamily: {
-				'sans': ['Inter', 'system-ui', 'sans-serif'],
-				'display': ['Inter', 'system-ui', 'sans-serif'],
-				'mono': ['JetBrains Mono', 'monospace']
+				'serif': ['Playfair Display', 'serif'],
+				'sans': ['Source Sans Pro', 'system-ui', 'sans-serif'],
+				'display': ['Playfair Display', 'serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
